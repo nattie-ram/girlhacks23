@@ -54,7 +54,7 @@ def main():
         if a == "Yes":
             st.write(" Let's get ready to blast into the world of knowledge! ☄️ ")
             options()
-            b = st.radio("Which do you want to learn about:", ("Solar System", "Stars", "Constellations", "What type of galaxy the Milky Way is", "Age of Milky Way?", "Done"))
+            b = st.radio("Which do you want to learn about:", ("Solar System 🪐 ", "Stars ⭐️", "Constellations ✨", "What type of galaxy the Milky Way is. 🛸 ", "What is the age of Milky Way? 🛰️", "Done ✌️👽✌️"))
             if b == "Solar System":
                 inputsolar()
             elif b == "Stars":
